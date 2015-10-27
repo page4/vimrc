@@ -13,5 +13,14 @@ vnoremap <Space> zf
 " hightlight current line
 set cursorline
 
+"automatically change the current directory
+"set autochdir or
+autocmd BufEnter * silent! lcd %:p:h
+
+"jump to next tag
+nnoremap <Leader>n :tn<CR>
+"show the tag list
+nnoremap <Leader>ts :ts<CR>
+
 "show current registers content(not work)
 nnoremap  <Leader>r :reg<CR> 
