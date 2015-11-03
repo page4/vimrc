@@ -1,3 +1,6 @@
+cd ~
+mv vimrc .vim_runtime
+
 cd ~/.vim_runtime
 
 echo 'set runtimepath+=~/.vim_runtime
