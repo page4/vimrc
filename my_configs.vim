@@ -13,6 +13,9 @@ vnoremap <Space> zf
 " hightlight current line
 set cursorline
 
+
+set tags=./tags,tags;
+
 "automatically change the current directory
 "set autochdir or
 autocmd BufEnter * silent! lcd %:p:h
