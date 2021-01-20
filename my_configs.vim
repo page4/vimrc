@@ -33,3 +33,4 @@ nnoremap  <Leader>b :sh<CR>
 noremap <C-D> <ESC>:sh<CR>
 
 let g:syntastic_cpp_compiler_options = ' -std=c++2a'
+let g:AutoPairs={}
