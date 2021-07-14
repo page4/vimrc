@@ -29,7 +29,16 @@ nnoremap <Leader>ts :ts<CR>
 "show current registers content(not work)
 nnoremap  <Leader>r :reg<CR> 
 
-nnoremap  <Leader>b :sh<CR>
 noremap <C-D> <ESC>:sh<CR>
 
 let g:syntastic_cpp_compiler_options = ' -std=c++2a'
+
+" NERDTree
+let g:NERDTreeWinPos = "left"
+nnoremap  <Leader><Space> :NERDTreeToggle<CR>
+
+" buffer
+silent! nunmap <Leader>bs
+silent! nunmap <Leader>bv
+silent! nunmap <Leader>bt
+nnoremap  <Leader>b :BufExplorer<CR>
